@@ -98,8 +98,8 @@
 			width: 100%;
 			padding: 1rem;
 		}
-		.hero {
-			min-height: 100dvh;
-		}
+	}
+	.hero {
+		min-height: 100vh;
 	}
 </style>
