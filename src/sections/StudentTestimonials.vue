@@ -96,10 +96,10 @@
 						</div>
 					</div>
 
-					<a class="prev" @click="plusSlides(-1, 'r')"
+					<a class="prev" @click="plusSlides(-1)"
 						><i class="bx bx-chevron-left"></i
 					></a>
-					<a class="next" @click="plusSlides(1, 'l')"
+					<a class="next" @click="plusSlides(1)"
 						><i class="bx bx-chevron-right"></i
 					></a>
 				</div>
@@ -138,13 +138,6 @@
 		for (i = 0; i < dots.length; i++) {
 			dots[i].className = dots[i].className.replace(" active", "");
 		}
-		// slides[slideIndex.value - 1].classList.remove("fade-in-left");
-		// slides[slideIndex.value - 1].classList.remove("fade-in-right");
-		// if (f == "l") {
-		// 	slides[slideIndex.value - 1].classList.add("fade-in-right");
-		// } else {
-		// 	slides[slideIndex.value - 1].classList.add("fade-in-left");
-		// }
 		slides[slideIndex.value - 1].style.display = "block";
 		dots[slideIndex.value - 1].className += " active";
 	}

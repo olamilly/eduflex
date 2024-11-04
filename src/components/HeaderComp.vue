@@ -19,21 +19,21 @@
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav mb-sm-0">
 					<li class="nav-item">
-						<a class="nav-link text-center" aria-current="page" href="#"
+						<a class="nav-link text-center" aria-current="page" href="/"
 							>Home</a
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-center" href="#">Courses</a>
+						<a class="nav-link text-center" href="/">Courses</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-center" href="#">Community</a>
+						<a class="nav-link text-center" href="/">Community</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-center" href="#">About</a>
+						<a class="nav-link text-center" href="/">About</a>
 					</li>
 					<li class="nav-item last">
-						<a class="nav-link text-center fw-bolder" href="#">Sign in</a>
+						<a class="nav-link text-center fw-bolder" href="/">Sign in</a>
 					</li>
 				</ul>
 			</div>
